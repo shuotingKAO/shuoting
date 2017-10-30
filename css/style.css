@@ -105,8 +105,8 @@ img{
 }
 /*home*/
 .home{	
+	background-image:url("bg_1.jpg");
 	height: 100vh;
-	background-image:url(bg_1.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center;
