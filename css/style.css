@@ -1,0 +1,445 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+  	max-width:100%;
+	height:auto;
+}
+/*End reset*/
+.container{
+	font-family: "微軟正黑體", sans-serif;
+}
+/*menu*/
+.topmenu{
+ 	position: fixed;
+ 	width: 100%;
+ 	z-index: 50;
+ 	background: rgba(0, 0, 0, 0.8);
+ }
+ .homebtn{
+ 	margin-left: 40px;
+ }
+.homebtn li{
+	float:left;
+	padding: 20px;
+	display: block;
+	font-weight: 900;
+	letter-spacing:0.7px;
+ }
+.homebtn li a{
+	text-decoration:none;
+}
+.homebtn li a:link{
+	color:gray;
+}
+.homebtn li a:visited{
+	color:gray;
+}
+.homebtn li a:hover{
+	color:white;
+}
+.menu li{
+	float: right;
+	text-decoration:none;
+	letter-spacing:0.7px;
+	font-weight: 900;
+	padding: 20px;
+	display: block;
+}
+.menu li a:link{
+	color:gray;
+}
+.menu li a:visited{
+	color:gray;
+}
+.menu li a{
+	 text-decoration:none;	
+}
+.menu{
+	 margin-right: 40px;
+}
+.menu li a:hover{
+  	color:white;
+}
+/*home*/
+.home{
+	height: 100vh;
+	background-image:url(/images/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover;
+	opacity:0.9;
+}
+.maintitle{
+
+}
+.maintitlecontent{
+	padding-top: 320px;
+	text-align: center;
+	max-width:1000px;
+	margin: 0 auto;
+}
+.maintitlecontent h1{
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 0.5px;
+	color: #fff; 
+	font-weight:bold;
+}
+
+.maintitlecontent p{
+	color: #fff;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+	font-size:20px;
+}
+
+/*about*/
+.about{
+	background-color: #f2f2f2;
+	min-height : 400px;
+}
+.aboutcontent{
+	display: none;
+	padding-top: 60px;
+    padding-bottom: 100px;
+}
+.aboutcontent h2{ 
+    font-size: 40px;
+	font-weight:bold;
+	text-align: center;   
+}
+.aboutcontent p{
+	font-weight:bold;
+  	line-height: 2em;
+}
+
+.intro{
+	width: 40%;
+	margin: 10px auto;
+	text-align: left;
+}
+.line-1{
+	font-size: 20px;
+}
+.line-2{
+	padding-bottom: 18px;
+}
+.line-3{
+	padding-bottom: 18px;
+}
+/*skill*/
+.skill{
+	min-height: 600px;
+}
+.skillcontent{
+	display: none;
+	width:100%;
+	padding-top: 60px;
+    padding-bottom: 100px;
+	text-align: center;
+}
+.skillcontent h2{
+	font-size: 40px;
+	font-weight:bold;
+}
+.SkillBar {
+    width: 40%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-html {
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-css {
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-jQuery {
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-rwd {
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+#Skill-javascript {
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+.Skill-Area {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+/*contact*/
+.contact{
+	min-height: 800px;
+	background-color: #f2f2f2;
+}
+.contactcontent{
+	display: none;
+	padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;  
+}
+.contactcontent h2{
+	font-size: 40px;
+	font-weight:bold;
+}
+.card {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 300px;
+  	margin: auto;
+  	text-align: center;
+  	font-family: arial;
+  	line-height: 2.5em;
+}
+.card h3{
+	font-weight: bold;
+  	font-size: 25px;
+}
+.card a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  margin: 20px 15px;
+}
+.card a:hover {
+  opacity: 0.7;
+}
+.card p{
+	color: gray;
+}
+.fa-envelope{
+	padding-right: 5px;
+}
+/*bottom*/
+.bottom{
+	height: 100px;
+}
+.bottom p{
+	font-weight:bold;
+	padding-top: 50px;
+    text-align: center;  
+}
+hr{
+	border:0; 
+	height:4px ; 
+	width: 50px;
+	margin: 30px auto;
+}
+/*rwd*/
+@media screen and (max-width:1100px){
+	.maintitlecontent{
+		padding-top: 20%;
+	}
+	.about{
+		min-height: 720px;
+	}
+	.aboutcontent{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.aboutcontent hr{
+		margin: 10px;
+	}
+	.intro{
+		font-size: 20px;
+		width:60%;
+	}
+	.line-1{
+		font-size: 26px;
+	}
+	.skill{
+		min-height:480px;
+	}
+	.skill hr{
+		margin: 10px;
+	}
+	.skillcontent{
+		padding-top: 20px;
+		padding-bottom:30px;
+	}
+	.SkillBar{
+		width: 65%;
+	}
+	.contact{
+		min-height:630px;
+	}
+	.contact hr{
+		margin: 10px;
+	}
+	.contactcontent{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:840px){
+	.maintitlecontent{
+		padding-top: 30%;
+	}
+	.about{
+		min-height: 720px;
+	}
+	.aboutcontent{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.aboutcontent hr{
+		margin: 10px;
+	}
+	.intro{
+		width: 75%;
+	}
+	.skill{
+		min-height: 480px;
+	}
+	.skillcontent{
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.skill hr{
+		margin: 10px;
+	}
+	.SkillBar{
+		width: 65%;
+	}
+	.contact{
+		min-height: 630px;
+	}
+	.contactcontent{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.contact hr{
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.menu{
+		display: none;
+	}
+	.homebtn{
+		display: none;
+	}
+    .maintitlecontent{
+    	padding-top: 40%;
+    }
+    .maintitlecontent h1{
+    	font-size: 30px;
+    }
+    .maintitlecontent p{
+    	font-size: 20px;
+    }
+    .about{
+		min-height: 400px;
+    }
+    .aboutcontent{
+    	padding-top: 20px;
+    	padding-bottom: 50px;
+    }
+    .aboutcontent p{
+  		line-height: 2.3em;
+	}
+	.aboutcontent hr{
+		margin: 10px;
+	}
+	.intro{
+		width: 100%;
+		margin: 0px;
+	}
+	.skill{
+		min-height: 480px;
+	}
+	.skillcontent{
+		padding-top:20px;
+		padding-bottom: 50px;
+	}
+	.SkillBar {
+    	width: 80%;
+	}
+	.skill hr{
+		margin: 10px;
+	}
+	.contact{
+		min-height: 500px;
+	}
+	.contactcontent{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.contact hr{
+		margin:10px;
+	}
+}
