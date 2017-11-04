@@ -104,14 +104,16 @@ img{
   	color:white;
 }
 /*home*/
-.home{	
+.home{
 	height: 100vh;
+	background-image:url(/images/bg_1.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center;
 	background-size: cover;
 	opacity:0.9;
 }
+
 .homecontent{
 	padding-top: 320px;
 	text-align: center;
